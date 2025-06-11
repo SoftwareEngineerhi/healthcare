@@ -1,0 +1,16 @@
+.dashboard-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 800px) {
+ .dashboard-main{
+  display: grid;
+  grid-template-columns: 1fr;
+}}
+@media (max-width: 500px) {
+ .dashboard-main{
+  display: grid;
+  grid-template-columns: 1fr;
+}}
+
+

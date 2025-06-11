@@ -1,0 +1,11 @@
+.simpleapp{
+  background-color: rgb(215, 215, 219);
+  margin-right: 6px;
+  border-radius: 12px;
+  text-align: center;
+  color: black;
+}
+.sim{
+  display:grid;
+  grid-template-columns:1fr 1fr ;
+}

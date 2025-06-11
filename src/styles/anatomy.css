@@ -1,0 +1,256 @@
+.anatomy{
+  position: 'relative';
+   gap: 1rem;
+  padding: 1rem;
+ }
+.anat{
+    width: 100%;
+    height: 100%;
+    
+}
+.labelheart {
+ position: 'absolute';
+    top: '5px';
+    right: '10px';
+    background-color: aqua;
+    color: '#fff';
+    padding: '4px 8px';
+    border-radius: '50%';
+    font-size: '0.8rem';
+}
+.container {
+      position: relative;
+      display: inline-block;
+    }
+
+.body-image {
+       width: 100%;
+    height: 100%;
+    margin-left: 40px;
+    }
+
+    .label {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.7);
+      border: 1px solid #ccc;
+      padding: 2px 5px;
+      font-size: 12px;
+      border-radius: 5px;
+    }
+
+    .heart {
+      top: 80px;   
+      left: 200px;
+      width: 100px;
+      padding:10px;
+      font-weight: bold;
+      background-color: #0f0799;
+      color: azure;
+      
+    }
+
+    
+
+    .leg {
+      top: 250px;
+      left:12px;
+      width: 100px;
+      padding:8px;
+      font-weight: bold;
+      background-color: #11fbfb;
+      color: rgb(18, 24, 24);
+    }
+    .scanner {
+  position: absolute;
+  width:40px;
+  height: 40px;
+  border-top:1px solid #0f03e6;
+  border-bottom:1px solid #3606c3;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-left: 0;
+  border-right: 0;
+  border-top-left-radius: 12px;
+  border-top: 2px;
+  box-shadow: 0 1px 3px 2px rgba(138, 12, 197, 0.6);
+}
+
+.scanner.heart-scanner {
+  top: 80px;   
+  left: 160px;
+}
+.scanner.leg-scanner {
+  top: 250px;
+  left: 120px;
+}
+@media (max-width: 1440px) {
+.scanner {
+  position: absolute;
+  width:50px;
+  height: 50px;
+  border-radius: 12%;
+}
+.scanner.heart-scanner {
+  top: 80px;   
+  left: 170px;
+}
+.scanner.leg-scanner {
+  top: 260px;
+  left: 130px;
+
+}
+}
+@media (max-width: 1024px) {
+ .container{
+  margin-left: 0;
+ }
+ .body-image {
+       width: 250px;
+    height:500px;
+    margin-left: 0;
+    }
+    
+  .label {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.7);
+      border: 1px solid #ccc;
+      font-size: 12px;
+      border-radius: 5px;
+    }
+    .heart {
+      top: 90px;   
+      left: 10px;
+      width: 100px;
+      background-color: #0f0799;
+      color: azure;
+      
+    }
+  .scanner {
+  position: absolute;
+  width:50px;
+  height: 50px;
+  border-radius: 12%;
+}
+.scanner.heart-scanner {
+  top: 110px;   
+  left: 120px;
+}
+.scanner.leg-scanner {
+  top: 310px;
+  left: 130px;
+
+}
+ .leg {
+      top:330px;
+      left: 10px;
+      width: 100px;
+      padding:8px;
+      font-weight: bold;
+      background-color: #11fbfb;
+      color: rgb(18, 24, 24);
+    }
+}
+
+@media (max-width: 800px) { 
+.body-image {
+    width: 100%;
+    height: 100%;
+    margin-left: 40px;
+    }
+  .label {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.7);
+      border: 1px solid #ccc;
+      font-size: 12px;
+      border-radius: 5px;
+    }
+    .heart {
+      top: 80px;   
+      left: 90px;
+      width: 100px;
+      background-color: #0f0799;
+      color: azure;
+      
+    }
+     .scanner {
+  position: absolute;
+  width:50px;
+  height: 50px;
+  border-radius: 12%;
+}
+.scanner.heart-scanner {
+  top: 110px;   
+  left: 170px;
+}
+.scanner.leg-scanner {
+  top: 330px;
+  left: 160px;
+
+}
+ .leg {
+      top:330px;
+      left: 60px;
+      width: 100px;
+      padding:8px;
+      font-weight: bold;
+      background-color: #11fbfb;
+      color: rgb(18, 24, 24);
+    }
+}
+@media (max-width: 500px) {
+ .container{
+  margin-left: 0;
+  align-items: left;
+ }
+  .anat{
+    width: 100%;
+    height: 50%;
+   
+}
+.body-image {
+       width: 100%;
+    height:100%;
+    margin-left: 0;
+    }
+      .label {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.7);
+      border: 1px solid #ccc;
+      font-size: 10px;
+      border-radius: 5px;
+    }
+     .heart {
+      top: 60px;   
+      left: 120px;
+      width: 80px;
+      font-weight: bold;
+      background-color: #0f0799;
+      color: azure;
+      
+    }
+     .leg {
+      top: 200px;
+      left:120px;
+      width: 100px;
+      padding:8px;
+      font-weight: bold;
+      background-color: #11fbfb;
+      color: rgb(18, 24, 24);
+    }
+       .scanner {
+  position: absolute;
+  width:20px;
+  height: 20px;
+  border-radius: 12%;
+}
+.scanner.heart-scanner {
+  top: 65px;   
+  left: 95px;
+}
+.scanner.leg-scanner {
+  top: 200px;
+  left: 95px;
+}
+}

@@ -1,0 +1,182 @@
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+}
+
+.header-logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2b2d42;
+}
+
+.header-logo .blue {
+  color: #00bcd4;
+}
+
+.header-center {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  flex: 1;
+  margin-right:40%;
+  justify-content: center;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  background-color: #f1f3f5;
+  padding: 8px 10px;
+  border-radius: 30px;
+  width: 50%;
+ 
+}
+
+.search-icon {
+  color: #888;
+  margin-right: 10px;
+}
+
+.header-search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 14px;
+}
+
+.bell-icon {
+  margin-left:10px;
+  font-size: 10px;
+  color: #555;
+  cursor: pointer;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.profile{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.profile-name{
+    margin-top:3px;
+}
+img{
+    width:30px;
+    height:30px;
+}
+.plus-button {
+  background-color: #3f51b5;
+  color: white;
+  font-weight:bold;
+  font-size:20px;
+  border: none;
+  border-radius: 12px;
+  padding: 8px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1024px) {
+  .header-center {
+    width: 100px;
+    margin-right: 30%;
+  }
+
+  .header-search {
+    width: 170px;
+    
+  }
+ 
+  .plus-button {
+    font-size: 18px;
+    padding: 6px 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-header {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+.header-search {
+  display: flex;
+  align-items: center;
+  background-color: #f1f3f5;
+  padding: 8px 10px;
+  border-radius: 30px;
+  width: 100%; 
+}
+  .header-center {
+    margin-left: 10%;
+    width: 100px;
+  }
+
+  .header-search input {
+    width: 100px;
+  }
+
+
+  .profile-name {
+    display: none;
+  }
+
+  .bell-icon {
+    font-size: 5px;
+  }
+
+  .plus-button {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-header {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .header-logo {
+    font-size: 18px;
+  }
+
+  .header-center {
+    width: 10px;
+    height: 10px;
+    margin-left:10;
+  }
+.search-icon {
+    font-size: 20px;
+    margin: 0;
+    cursor: pointer;
+    color: #555;
+  }
+  .profile {
+    width:5px;
+  }
+
+  .profile-name {
+   display: none; 
+  }
+  .bell-icon {
+    font-size: 10px;
+  }
+
+  .plus-button {
+    margin:5px;
+    font-size: 10px;
+    border-radius: 8px;
+  }
+}
